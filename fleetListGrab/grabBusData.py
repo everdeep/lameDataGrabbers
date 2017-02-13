@@ -69,7 +69,7 @@ for url in urls:
 
 	count = 1
 	with open('error_links.txt', 'w+') as errors:
-		with open('bus_data (%s).cv' % file_names[file_count], 'w+') as f:
+		with open('data/bus_data (%s).cv' % file_names[file_count], 'w+') as f:
 			# Grabs all the links with the data about busses
 			for a in d('#resultform tr td a'):
 				link = default_url + str(a.attrib['href'])

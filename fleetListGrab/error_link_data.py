@@ -64,7 +64,7 @@ for link in links:
 			break
 
 file = str(sys.argv[1])
-with open('bus_data (%s).cv' % file, 'a') as f:
+with open('data/bus_data (%s).cv' % file, 'a') as f:
 	for url in urls:
 		try:
 			d = pq(url)
