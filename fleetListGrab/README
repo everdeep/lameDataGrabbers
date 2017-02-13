@@ -1,0 +1,10 @@
+This is a crappy data grabber specifically for retrieving the company name and total busses in that company's fleet
+from the website 'https://fleetlists.busaustralia.com/index.php'. This goes through all the companies in each state
+except for Western Australia, due to the webpage difference.
+
+This was a simple project just meant to help my brother grab the necessary data from the site for his job.
+I tried a little bit to make the code modular, but it entirely isn't :'(
+I may try to improve it in the future, but there does not seem to be a point right now and will just serve
+as a reference for making other crappy data grabbers.
+
+Feel free to use it, and sorry for the poor commenting.
