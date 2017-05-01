@@ -1,5 +1,8 @@
-import urllib2
+# This just simply downloads all of Google's research papers
+# given that you enter in the correct url (https://research.google.com/pubs/blahblahblah)
+# can't remember if there are bugs.
 
+import urllib2
 from pyquery import PyQuery as pq
 from lxml import etree
 
